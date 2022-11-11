@@ -7,9 +7,9 @@ body {
 
 .container {
   background-color: aliceblue;
-  max-width: 350px;
-  height: 550px;
-  margin: auto;
+  max-width: 320px;
+  max-height: 550px;
+  margin: 0 auto;
   text-align: center;
   padding-top: 14px;
   border-radius: 20px;
@@ -18,7 +18,7 @@ body {
 
 
 .container img {
-  max-width: 320px;
+  max-width: 280px;
   margin: 0 auto;
   display: block;
   border-radius: 20px;
@@ -33,24 +33,3 @@ h2, p {
   top: 50px;
 }
 
-@media (min-width: 1920px) {
-  .container {
-    transform: translateY(50%);
-  }
-}
-
-@media (max-width: 414px) {
-  .container {
-    margin: 0;
-    max-width: 300px;
-    transform: translateY(0%);
-  }
-  .container img {
-    max-width: 280px;
-  }
-
-  .attribution {
-    position: relative;
-    top: 80px;
-  }
-}
